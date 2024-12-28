@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.content {
+    flex: 1;
+    padding-right: 20px;
+    color: white;
+    font-size: x-large;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50px;
+}

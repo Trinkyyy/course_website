@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='signup.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- this is form link  -->
+    <!-- http://127.0.0.1:8000/ -->
+    <div class="agbalumo-regular">
+        <section>
+            <nav id="navbar">
+                <div id="logo">
+                    <img src="https://clipart-library.com/images_k/computer-transparent-image/computer-transparent-image-5.png" alt="my online meal">
+                </div>
+                <ul>
+                    <li class="item"><a href="index.html">Home</a></li>
+                    <li class="item"><a href="course.html">Cheatsheet</a></li>
+                    <li class="item"><a href="schedule.html">Schedule</a></li>
+                    <li class="item"><a href="cart.html">Cart</a></li>
+                    <li class="item"><a href="aboutus.html">About Us</a></li>
+                </ul>
+                <div class="okk">z
+                    <p>7490044190</p>
+                    <hr>
+                    <p>Truptiparsai2@gmail.com</p>
+                </div>
+            </nav>
+        </section>
+        <div class="container" id="cont1">
+            <h3>Sign Up For Starting Your Journey</h3>
+            <form action="/submit" method="post">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Enter First Name:</td>
+                            <td><input type="text" name="firstname" id="fname" required></td>
+                        </tr>
+                        <tr>
+                            <td>Enter Last Name:</td>
+                            <td><input type="text" name="lastname" id="lname" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="gender">Gender:</label></td>
+                            <td>
+                                <input type="radio" name="mygender" value="Male"> Male 
+                                <input type="radio" name="mygender" value="Female"> Female 
+                                <input type="radio" name="mygender" value="Other"> Other
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>DOB:</td>
+                            <td><input type="date" name="dob" required></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="email" name="email" required></td>
+                        </tr>
+                        <tr>
+                            <td>Username:</td>
+                            <td><input type="text" name="username" required></td>
+                        </tr>
+                        <tr>
+                            <td>Password:</td>
+                            <td><input type="password" name="password" required></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input type="submit" value="Submit" class="btn">
+                                <input type="reset" value="Reset" class="btn">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>  
+    </div>
+</body>
+</html>

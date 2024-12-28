@@ -1,0 +1,111 @@
+body{
+    font-family: "Agbalumo", system-ui;
+    background-color: #030832;
+    overflow-x: hidden; 
+}
+
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+    color: white;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 70px;
+    margin: 15px 6px;
+}
+
+/* Navigation Bar: List Styling */
+#navbar ul{
+    display: flex;
+    font-family: "Agbalumo", system-ui;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form Styling */
+.container{
+    border-radius: 20px;
+    border: 9px solid #030832;
+    background-color: #00ABE1;
+    padding: 37px;
+    margin: 37px auto;
+    width: 1300px;
+    height: 500px;
+    font-size: 35px;
+}
+
+input{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+input:hover{
+    color: black;
+    background-color: rgb(213, 228, 218);
+}
+
+input:visited{
+    color: yellow;
+}
+
+.btn{
+    color: white;
+    background-color: #030832;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 15px;
+}

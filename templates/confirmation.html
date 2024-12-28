@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Confirmation</title>
+    
+    <!-- Assuming you have a CSS file named signup.css for styling -->
+    <link rel="stylesheet" href="common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <section>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="https://clipart-library.com/images_k/computer-transparent-image/computer-transparent-image-5.png" alt="my online meal">
+            </div>
+            <ul>
+                <li class="item"><a href="index.html">Home</a></li>
+                <li class="item"><a href="course.html">Cheatsheet</a></li>
+                <li class="item"><a href="schedule.html">Schedule</a></li>
+                <li class="item"><a href="cart.html">Cart</a></li>
+                <li class="item"><a href="aboutus.html">About Us</a></li>
+            </ul>
+            <div class="okk">
+                <p>7490044190</p>
+                <hr>
+                <p>Truptiparsai2@gmail.com</p>
+            </div>
+        </nav>
+    </section>
+    <body>
+        <style>
+            .confirmation-container{
+                color: white;
+            }
+        </style>
+        <div class="confirmation-container">
+            <h1>Confirmation Page</h1>
+            <p>Your information:</p>
+            <p><strong>First Name:</strong> {{ firstname }}</p>
+            <p><strong>Last Name:</strong> {{ lastname }}</p>
+            <p><strong>Gender:</strong> {{ gender }}</p>
+            <p><strong>Date of Birth:</strong> {{ dob }}</p>
+            <p><strong>Email:</strong> {{ email }}</p>
+            <p><strong>Username:</strong> {{ username }}</p> 
+            
+            <!-- You can style this information as needed -->
+        </div>
+    
+    </body>
+</body>
+</html>
